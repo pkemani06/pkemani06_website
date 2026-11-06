@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Prince Michael Kemani — Editorial</title>
+<title>Prince Michael Kemani</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"/>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -100,15 +100,14 @@ footer{border-top:1px solid var(--border);padding:3rem;max-width:1200px;margin:0
 
 <div class="hero">
   <div>
-    <div class="hero-eyebrow">Software Engineer · ML Engineer · AI Systems</div>
+    <div class="hero-eyebrow">Software Engineer · ML &amp; Backend Infrastructure</div>
     <h1>Prince<br/>Michael<br/><em>Kemani</em></h1>
     <div class="hero-rule"></div>
-    <p class="hero-sub">Passionate about building scalable software systems and pushing the boundaries of AI. Junior at UMBC pursuing B.S. Computer Science & Mathematics. GPA 3.84.</p>
+    <p class="hero-sub">Software engineer focused on ML and backend infrastructure, building scalable systems that put models into production. Junior at UMBC pursuing B.S. Computer Science (AI/ML track). GPA 3.84.</p>
     <div class="hero-meta">
       <div class="meta-item"><span class="meta-label">Clearance</span><span class="meta-value">Secret</span></div>
       <div class="meta-item"><span class="meta-label">Program</span><span class="meta-value">Meyerhoff M36</span></div>
-      <div class="meta-item"><span class="meta-label">Fellowship</span><span class="meta-value">MLT Fellow</span></div>
-      <div class="meta-item"><span class="meta-label">Scholar</span><span class="meta-value">HHMI</span></div>
+      <div class="meta-item"><span class="meta-label">Leadership</span><span class="meta-value">ColorStack E-Board</span></div>
       <div class="meta-item"><span class="meta-label">Class</span><span class="meta-value">UMBC 2028</span></div>
     </div>
     <div class="hero-links">
@@ -133,12 +132,27 @@ footer{border-top:1px solid var(--border);padding:3rem;max-width:1200px;margin:0
       </ul>
     </div>
     <div class="exp-card reveal">
-      <div class="exp-meta"><div class="exp-company">DIDARA Technologies</div><div class="exp-date">Feb 2026 – May 2026</div><div class="exp-role">SWE Intern – AI Systems</div></div>
+      <div class="exp-meta"><div class="exp-company">DIDARA Technologies</div><div class="exp-date">Feb 2026 – May 2026</div><div class="exp-role">SWE Intern, AI Systems</div></div>
       <ul class="exp-bullets">
-        <li>Engineered and deployed a fully local conversational AI system — <strong>Pearl</strong> — using FastAPI, Docker, and Ollama, supporting <strong>3,000+ patients</strong> across clinic sites in a HIPAA-compliant environment.</li>
+        <li>Engineered and deployed a fully local conversational AI system, <strong>Pearl</strong>, using FastAPI, Docker, and Ollama, supporting <strong>3,000+ patients</strong> across clinic sites in a HIPAA-compliant environment.</li>
         <li>Built async <strong>FastAPI</strong> services with <strong>MongoDB</strong> caching, reducing end-to-end inference latency by <strong>27%</strong>; improved model evaluation by 13% through prompt engineering.</li>
-        <li>Designed an end-to-end <strong>RAG pipeline</strong> — document ingestion, embedding generation, vector retrieval, cross-encoder reranking — reducing hallucinations by <strong>11%</strong>.</li>
+        <li>Designed an end-to-end <strong>RAG pipeline</strong> (document ingestion, embedding generation, vector retrieval, cross-encoder reranking), reducing hallucinations by <strong>11%</strong>.</li>
         <li>Resolved clinical LLM hallucinations by redesigning the inference pipeline around retrieval-augmented generation.</li>
+      </ul>
+    </div>
+    <div class="exp-card reveal">
+      <div class="exp-meta"><div class="exp-company">Hoffman Lab · UMBC</div><div class="exp-date">2025 – Present</div><div class="exp-role">Undergraduate Researcher</div></div>
+      <ul class="exp-bullets">
+        <li>Trained <strong>DeepLabCut ResNet-50</strong> pose estimation models to track weakly electric fish (<em>Eigenmannia virescens</em>), scaling from an 8-point to a <strong>50-point</strong> body model.</li>
+        <li>Ran large-scale inference on UMBC's <strong>CHIP HPC cluster</strong> and applied change-point detection on velocity signals to classify explore/exploit behavior.</li>
+        <li>Upgraded the lab's shared DeepLabCut environment to <strong>DLC 3 (PyTorch)</strong> for all lab members. Presented at <strong>URCAD 2025</strong>.</li>
+      </ul>
+    </div>
+    <div class="exp-card reveal">
+      <div class="exp-meta"><div class="exp-company">RIT Trustworthy AI Lab</div><div class="exp-date">2025</div><div class="exp-role">Undergraduate Researcher</div></div>
+      <ul class="exp-bullets">
+        <li>Contributed to the lab's research on <strong>LLM toxicity evaluation</strong> and <strong>adversarial guardrail bypass</strong> methods.</li>
+        <li>Fine-tuned models on adversarial datasets using <strong>TensorFlow</strong> to evaluate how safety guardrails hold up under attack.</li>
       </ul>
     </div>
     <div class="exp-card reveal">
@@ -157,9 +171,10 @@ footer{border-top:1px solid var(--border);padding:3rem;max-width:1200px;margin:0
   <div class="section-title">Selected Work</div>
   <div class="projects-grid">
     <div class="proj-card reveal"><div class="proj-num">Project 01 <a href="https://github.com/pkemani06" class="proj-link" target="_blank" style="margin-left:1rem">GitHub ↗</a></div><div class="proj-name">EdgeVision</div><div class="proj-desc">Real-time computer vision pipeline in C++ using OpenCV and ONNX Runtime for low-latency object detection. Kalman filter-based multi-object tracker for persistent identity across frames. Modular detection, tracking, and visualization components built with modern C++ and CMake.</div><div class="proj-stack"><span class="stack-tag">C++</span><span class="stack-tag">OpenCV</span><span class="stack-tag">ONNX Runtime</span><span class="stack-tag">CMake</span></div></div>
-    <div class="proj-card reveal"><div class="proj-num">Project 02 <a href="https://github.com/pkemani06" class="proj-link" target="_blank" style="margin-left:1rem">GitHub ↗</a></div><div class="proj-name">nanoRAG</div><div class="proj-desc">RAG system built from scratch in PyTorch no LangChain, no shortcuts. Custom embedding layer, cosine similarity vector search, multi-head self-attention, positional encoding, and a full document chunk indexing pipeline. Retrieval strategy swaps without retraining the transformer.</div><div class="proj-stack"><span class="stack-tag">PyTorch</span><span class="stack-tag">NumPy</span><span class="stack-tag">Python</span></div></div>
-    <div class="proj-card reveal"><div class="proj-num">Project 03 <a href="https://github.com/pkemani06" class="proj-link" target="_blank" style="margin-left:1rem">GitHub ↗</a></div><div class="proj-name">AtlasPrep</div><div class="proj-desc">ColorStack Winter Hackathon 2025 Winner. Full-stack AI interview prep platform 500+ users in 1 week, 22 confirmed job placements in 2 months. Gemini API resume analyzer with ATS scoring, role-specific question engine, PostgreSQL schema, Supabase auth, and connection pooling for 500+ concurrent users.</div><div class="proj-stack"><span class="stack-tag">Next.js</span><span class="stack-tag">FastAPI</span><span class="stack-tag">Gemini API</span><span class="stack-tag">PostgreSQL</span><span class="stack-tag">Redis</span><span class="stack-tag">Supabase</span><span class="stack-tag">Docker</span></div></div>
-    <div class="proj-card reveal"><div class="proj-num">Project 04 <a href="#" class="proj-link" style="margin-left:1rem">Live ↗</a></div><div class="proj-name">Gigi Psychiatric Services</div><div class="proj-desc">Production client site for a telehealth psychiatric practice. React/Node.js/Express backend with SendGrid email integration, Railway deployment, Vercel frontend. Built and shipped for a real client serving real patients.</div><div class="proj-stack"><span class="stack-tag">React</span><span class="stack-tag">Node.js</span><span class="stack-tag">Express</span><span class="stack-tag">SendGrid</span><span class="stack-tag">Railway</span><span class="stack-tag">Vercel</span></div></div>
+    <div class="proj-card reveal"><div class="proj-num">Project 02 <a href="https://github.com/pkemani06" class="proj-link" target="_blank" style="margin-left:1rem">GitHub ↗</a></div><div class="proj-name">nanoRAG</div><div class="proj-desc">RAG system built from scratch in PyTorch. No LangChain, no shortcuts. Custom embedding layer, cosine similarity vector search, multi-head self-attention, positional encoding, and a full document chunk indexing pipeline. Retrieval strategy swaps without retraining the transformer.</div><div class="proj-stack"><span class="stack-tag">PyTorch</span><span class="stack-tag">NumPy</span><span class="stack-tag">Python</span></div></div>
+    <div class="proj-card reveal"><div class="proj-num">Project 03 <a href="https://colorstackwinterhack2025-interview.vercel.app/" class="proj-link" target="_blank" style="margin-left:1rem">Live ↗</a></div><div class="proj-name">AtlasPrep</div><div class="proj-desc">ColorStack Winter Hackathon 2025 Winner. Full-stack AI interview prep platform, now with 5,000+ users and 200+ confirmed job placements in tech and PM. Gemini API resume analyzer with ATS scoring, role-specific question engine, PostgreSQL schema, Supabase auth, and connection pooling for 500+ concurrent users.</div><div class="proj-stack"><span class="stack-tag">Next.js</span><span class="stack-tag">FastAPI</span><span class="stack-tag">Gemini API</span><span class="stack-tag">PostgreSQL</span><span class="stack-tag">Redis</span><span class="stack-tag">Supabase</span><span class="stack-tag">Docker</span></div></div>
+    <div class="proj-card reveal"><div class="proj-num">Project 04 <a href="https://gigi-psychiatric-services.vercel.app/" class="proj-link" target="_blank" style="margin-left:1rem">Live ↗</a></div><div class="proj-name">Gigi Psychiatric Services</div><div class="proj-desc">Production client site for a telehealth psychiatric practice. React/Node.js/Express backend with SendGrid email integration, Railway deployment, Vercel frontend. Built and shipped for a real client serving real patients.</div><div class="proj-stack"><span class="stack-tag">React</span><span class="stack-tag">Node.js</span><span class="stack-tag">Express</span><span class="stack-tag">SendGrid</span><span class="stack-tag">Railway</span><span class="stack-tag">Vercel</span></div></div>
+    <div class="proj-card reveal"><div class="proj-num">Project 05 <a href="https://github.com/pkemani06/PinGraph" class="proj-link" target="_blank" style="margin-left:1rem">GitHub ↗</a></div><div class="proj-name">PinGraph</div><div class="proj-desc">Pinterest/PinSage-inspired recommendation backend. Serves related pins and personalized feeds using random walks with restart over a pin-board bipartite graph held in memory. FastAPI services backed by PostgreSQL, Redis caching and pub/sub, and multiple API replicas behind nginx, load tested with Locust. In progress.</div><div class="proj-stack"><span class="stack-tag">Python</span><span class="stack-tag">FastAPI</span><span class="stack-tag">PostgreSQL</span><span class="stack-tag">Redis</span><span class="stack-tag">nginx</span><span class="stack-tag">Docker</span><span class="stack-tag">Locust</span></div></div>
   </div>
 </section>
 
@@ -168,7 +183,7 @@ footer{border-top:1px solid var(--border);padding:3rem;max-width:1200px;margin:0
   <div class="section-title">Research</div>
   <div class="research-list">
     <div class="research-card reveal"><div><div class="research-title">Computer Vision for Prosthetic Control · YOLOv8 + EMG</div><div class="research-lab">Vinjamuri Lab · UMBC · Jan–May 2025</div><div class="research-desc">Real-time CV pipeline using YOLOv8 for autonomous control of the Inspire Dexterous Hand prosthetic. Serial SDK integration for live grasp execution. Reduced latency by 13%. Presented to 4,000+ attendees at ABRCMS 2025.</div></div><div style="display:flex;flex-direction:column;gap:0.4rem;align-items:flex-end"><span class="rbadge award">1st Place ABRCMS 2025</span><span class="rbadge conf">Engineering Division</span></div></div>
-    <div class="research-card reveal"><div><div class="research-title">LLM Toxicity & Guardrail Bypass</div><div class="research-lab">RIT Trustworthy AI Lab · 2025</div><div class="research-desc">First-author research on LLM toxicity evaluation and adversarial guardrail bypass methods. Fine-tuned models on adversarial datasets using TensorFlow. Accepted and presented at AAAI 2026.</div></div><div><span class="rbadge pub">AAAI 2026</span></div></div>
+    <div class="research-card reveal"><div><div class="research-title">LLM Toxicity & Guardrail Bypass</div><div class="research-lab">RIT Trustworthy AI Lab · 2025</div><div class="research-desc">Contributed to the lab's research on LLM toxicity evaluation and adversarial guardrail bypass methods. Fine-tuned models on adversarial datasets using TensorFlow.</div></div><div><span class="rbadge conf">Research Contributor</span></div></div>
     <div class="research-card reveal"><div><div class="research-title">Fish Behavior Classification · DeepLabCut + Change-Point Detection</div><div class="research-lab">Hoffman Lab · UMBC · 2025</div><div class="research-desc">Trained DeepLabCut ResNet-50 to 100k iterations tracking 8 body parts on Eigenmannia virescens. HPC inference on UMBC CHIP cluster. Change-point detection on velocity signals to classify explore/exploit behavior. Presented at URCAD 2025.</div></div><div><span class="rbadge conf">URCAD 2025</span></div></div>
   </div>
 </section>
@@ -190,8 +205,7 @@ footer{border-top:1px solid var(--border);padding:3rem;max-width:1200px;margin:0
   <div class="section-eyebrow">05 / Leadership</div>
   <div class="section-title">Leadership & Programs</div>
   <div class="leadership-list">
-    <div class="lead-item reveal"><div><div class="lead-role">VP · ColorStack UMBC Chapter</div><div class="lead-org">ColorStack</div></div><div class="lead-date">Current</div></div>
-    <div class="lead-item reveal"><div><div class="lead-role">E-Board Secretary</div><div class="lead-org">NSBE · National Society of Black Engineers</div></div><div class="lead-date">Current</div></div>
+    <div class="lead-item reveal"><div><div class="lead-role">Technical Chair · ColorStack UMBC E-Board</div><div class="lead-org">ColorStack · Runs LeetCode workshops and technical interview prep for members</div></div><div class="lead-date">Current</div></div>
     <div class="lead-item reveal"><div><div class="lead-role">Career Preparation Fellow</div><div class="lead-org">Management Leadership for Tomorrow (MLT) · 2.5% acceptance · 18-month program</div></div><div class="lead-date">Dec 2025 – Present</div></div>
     <div class="lead-item reveal"><div><div class="lead-role">Meyerhoff Scholar · M36 Cohort</div><div class="lead-org">UMBC Meyerhoff Scholars Program</div></div><div class="lead-date">Aug 2024 – Present</div></div>
     <div class="lead-item reveal"><div><div class="lead-role">Calculus I Teaching Assistant</div><div class="lead-org">UMBC Mathematics Department</div></div><div class="lead-date">Current</div></div>
